@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h4>Formulário do Exercício de PW</h4>
+    <form action="qualquer.js">
+        <fieldset>
+            <label for="id_nome">Nome:</label>
+            <input type="text" id="id_nome" name="usuario">
+            <br>
+
+            <label for="id_dtnasc">Data de Nascimento:</label>
+            <input type="text" id="id_dtnasc" name="dtnasc">
+            <br>
+
+            <label>Sexo:</label>
+            <input type="radio" id="id_sexoM" name="sexo" value="Masc">
+            <label for="id_sexoM">Masc</label>
+            <input type="radio" id="id_sexof" name="sexo" value="Fem">
+            <label for="id_sexof">Fem</label>
+            <input type="radio" id="id_sexoPND" name="sexo" value="Prefiro não informar">
+            <label for="id_sexoPND">Prefiro não Dizer</label>
+            <br>
+            
+            <label>Endereço:</label><br>
+
+            <label for="id_log">Logradouro:</label>
+            <input type="text" id="id_log" name="logradouro">
+            <br>
+
+            <label for="id_bairro">Bairro:</label>
+            <input type="text" id="id_bairro" name="bairro">
+            <br>
+
+            <label for="id_cidade">Cidade:</label>
+            <input type="text" id="id_cidade" name="cidade">
+            <br>
+            
+            <label for="id_uf">UF:</label>
+            <select name="uf" id="id_uf">
+                <option value="DF">DF</option>
+                <option value="MG">MG</option>
+                <option value="MT">MT</option>
+            </select>
+            <br>
+
+
+            <label for="id_email">Email:</label>
+            <input type="text" id="id_email" name="email">
+            <br>
+
+            <input type="submit" value="Limpar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+<button><a href="index.html">Voltar</a></button>
+
+    
+</body>
+</html>

@@ -1,0 +1,11 @@
+
+
+#resposta {
+    background-color: rgb(212, 218, 215);
+}
+
+fieldset{
+    float:left;
+    border-color: #000;
+    border-width: 5px;
+}
